@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Trang Bán Sách</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Trang Chủ</a></li>
+                <li><a href="#books">Sách</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="books">
+            <h2>Các Cuốn Sách Nổi Bật</h2>
+            <div class="book">
+                <h3>Sách 1</h3>
+                <p>Mô tả sách 1.</p>
+                <button>Thêm vào giỏ hàng</button>
+            </div>
+            <div class="book">
+                <h3>Sách 2</h3>
+                <p>Mô tả sách 2.</p>
+                <button>Thêm vào giỏ hàng</button>
+            </div>
+        </section>
+
+        <section id="chatbot">
+            <h2>Trợ Lý Ảo</h2>
+            <div id="chatbox">
+                <div id="messages"></div>
+                <input type="text" id="userInput" placeholder="Nhập câu hỏi của bạn...">
+                <button onclick="sendMessage()">Gửi</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Trang Bán Sách. Tất cả quyền được bảo lưu.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
